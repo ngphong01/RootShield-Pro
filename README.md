@@ -2,11 +2,12 @@
 
 Ứng dụng quản lý & thiết lập lá chắn Root cho Android (hỗ trợ **APatch**, **Magisk**, **KernelSU**).
 
-> 📦 **Tải APK bản mới nhất:** Vào mục [**Releases**](https://github.com/ngphong01/RootShield-Pro/releases/latest) để tải file `RootShield_Pro_v2.0.0.apk`.
+> 📦 **Tải APK bản mới nhất:** Vào mục [**Releases**](https://github.com/ngphong01/RootShield-Pro/releases/latest) để tải file `RootShield_Pro_v2.0.1.apk`.
 
 ---
 
-## ✨ Tính năng chính (v2.0.0)
+## ✨ Tính năng chính (v2.0.1)
+- **Nhận diện & Mở thẳng App Root thông minh:** Tự quét xem máy đang cài **APatch**, **Magisk** hay **KernelSU**; nếu chưa có quyền Root sẽ hiện khung hướng dẫn + nút **`🚀 Mở ... ngay`** cho người mới không rành kỹ thuật.
 - **Kiểm tra trạng thái theo thời gian thực:** Hiển thị loại Root (`APatch` / `Magisk` / `KernelSU`) và tình trạng 5 module cốt lõi (`ZygiskNext`, `NoHello`, `HMA-OSS`, `TrickyStore`, `PlayIntegrityFork`).
 - **Cài Full Bộ 5 Module Lá Chắn (Offline 1-Click):** Tích hợp sẵn bộ 5 module bên trong APK, cài đặt offline không cần tải thủ công từng file.
 - **Tự động bọc ẩn Ngân hàng & VNeID:** Hỗ trợ bọc ẩn nhanh hàng loạt ứng dụng ngân hàng / ví điện tử Việt Nam hoặc tìm theo tên gói để thêm/gỡ, kèm nút **Soft Reboot** áp dụng ngay.
@@ -18,10 +19,11 @@
 
 ## 📌 Hướng dẫn sử dụng nhanh sau khi tải APK
 
-1. **Cài đặt & Cấp quyền Root:**
-   - Cài file APK từ mục [Releases](https://github.com/ngphong01/RootShield-Pro/releases).
-   - Mở **APatch / Magisk / KernelSU** → mục **Quyền Root (SuperUser)** → bật cho phép **RootShield Pro**.
-   - Mở lại app, góc trên bên phải hiện nhãn xanh **`● APATCH / MAGISK / KSU ROOT`** là thành công.
+1. **Cài đặt & Cấp quyền Root (siêu dễ):**
+   - Cài file APK từ mục [Releases](https://github.com/ngphong01/RootShield-Pro/releases) rồi mở app **RootShield Pro**.
+   - Nếu máy **chưa từng cấp quyền** và bạn không biết App Root nằm ở đâu: ngay đầu màn hình sẽ hiện khung hướng dẫn và nút **`🚀 Mở [Tên App Root] ngay`** — chỉ cần bấm vào nút đó.
+   - Bên trong app vừa mở, chọn biểu tượng **Khiên / dấu `#`** *(mục Siêu người dùng / SuperUser)* ở thanh menu dưới → gạt **Bật** cho `RootShield Pro` → bấm nút Quay lại.
+   - Thấy góc phải hiện chữ xanh **`● APATCH / MAGISK / KSU ROOT`** là hoàn tất bước 1! *(Nếu khung cảnh báo báo "Máy chưa có Root" thì máy bạn chưa được root sẵn nên app chưa dùng được).*
 2. **Cài bộ 5 Module (nếu máy mới Root chưa có module):**
    - Bấm **`📦 Cài Full Bộ 5 Module Lá Chắn (Offline 1-Click)`**.
    - Đợi ~15 giây hoàn tất rồi bấm **Khởi động lại ngay**.
